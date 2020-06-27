@@ -1,4 +1,4 @@
-import stack as st
+import stackImpl as st
 # postfix conversion
 def postfixConv(inStr):
     opStack = st.stack()

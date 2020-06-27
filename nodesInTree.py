@@ -3,6 +3,8 @@ class Node:
         self.data = data
         self.left = None
         self.right = None
+
+
 class Tree:
     def __init__(self, root: Node):
         self.root = root
@@ -10,6 +12,7 @@ class Tree:
     def NodeCount(self):
         print('Total Node in Tree: ', end=' ')
         print(self.__countNodes(self.root))
+
     def __countNodes(self,temproot):
         if temproot == None:
             return 0

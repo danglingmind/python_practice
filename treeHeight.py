@@ -3,6 +3,8 @@ class Node:
         self.data = data
         self.left = None
         self.right = None
+
+
 class Tree:
     def __init__(self, root: Node):
         self.root = root
@@ -11,6 +13,7 @@ class Tree:
         current_h = 0
         current_h = self.__getHeight(self.root)
         return current_h
+
     def __getHeight(self, temproot:Node):
         if temproot == None:
             return 0

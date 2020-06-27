@@ -1,4 +1,5 @@
 import stackImpl as st 
+
 def doMath(op1, op2, operand):
     if operand == "+":
         return op1 + op2
